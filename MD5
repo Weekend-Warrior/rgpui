@@ -1,0 +1,15 @@
+d41d8cd98f00b204e9800998ecf8427e *ChangeLog
+f07892cb7ada0bab55ffa2cf63a92cb6 *DESCRIPTION
+685aa2d41eeedb53968f048280ac19f6 *NAMESPACE
+02bd790a1a658a28c8be6c8d8dc19e48 *R/webgui.R
+1f9e9d1a5a1d347d945ef4b7727f2ea0 *inst/css/font-awesome.css
+fa6868c22ceca7f65191ec25c68a9bb5 *inst/css/font-awesome.min.css
+3f3a623e88cb5c62eaa2367195e98b67 *inst/fonts/FontAwesome.otf
+8b27bc96115c2d24350f0d09e6a9433f *inst/fonts/fontawesome-webfont.eot
+0a799148a50bb02c6f380eabd8d97559 *inst/fonts/fontawesome-webfont.svg
+dcb26c7239d850266941e80370e207c1 *inst/fonts/fontawesome-webfont.ttf
+3293616ec0c605c7c2db25829a0a509e *inst/fonts/fontawesome-webfont.woff
+2ca9f04f273a506830cf209370fe6c49 *inst/images/logo_rgp.png
+56be28a1645466dc675d2a204fca015c *inst/scripts/jquery.sparkline.min.js
+be735a5deac6493c1ee1771af5187ba5 *man/rgpuiHtml.Rd
+49624c5e39edcb99874ce1dcfde5f6a4 *man/symbolicRegressionUi.Rd

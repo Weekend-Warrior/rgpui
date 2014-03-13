@@ -1,0 +1,20 @@
+\name{symbolicRegressionUi}
+\alias{symbolicRegressionUi}
+\title{Web-based user interface to RGP}
+\usage{
+symbolicRegressionUi(port = 1447)
+}
+\arguments{
+  \item{port}{The TCP port the web-based user interface to
+  listen on, defaults to port 1447.}
+}
+\description{
+Start the web-based user interface to RGP. Currently, this
+user interface only support Symbolic Regression.
+}
+\examples{
+\dontrun{
+symbolicRegressionUi()
+}
+}
+
