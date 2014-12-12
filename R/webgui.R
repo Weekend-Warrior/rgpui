@@ -2,7 +2,7 @@
 ##   - Web-based User Interface to RGP  
 ##
 ## RGP - a GP system for R
-## 2010-13 Oliver Flasch (oliver.flasch@fh-koeln.de)
+## 2010-14 Oliver Flasch (oliver.flasch@fh-koeln.de)
 ## with contributions of Thomas Bartz-Beielstein, Olaf Mersmann and Joerg Stork
 ## released under the GPL v2
 ##
@@ -786,7 +786,7 @@ server <- function(input, output, session) {
 
       return (result)
     }
-  }, options = list(iDisplayLength = 25, bFilter = 0, bInfo = 0, aoColumns = list(list(bSortable = 0), NULL, NULL, NULL, NULL, list(bSortable = 0)))) # TODO optimize data table options
+  }, options = list(pageLength = 25, searching = 0, info = 0, columns = list(list(orderable = 0), NULL, NULL, NULL, NULL, list(orderable = 0)))) # TODO optimize data table options
 
   output$resultVariableImportancePlot <- renderPlot({
     if (!is.null(lastWorkerProcessMessages$result)) {
@@ -826,6 +826,7 @@ server <- function(input, output, session) {
 ##' @import rgp 
 ##' @import emoa 
 ##' @import shiny
+##' @import parallel
 symbolicRegressionUi <- function(port = 1447) {
   addResourcePath("css", system.file("css", package = "rgpui"))
   addResourcePath("images", system.file("images", package = "rgpui"))
